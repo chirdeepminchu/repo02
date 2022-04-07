@@ -46,6 +46,6 @@ fix-permissions ./
 cp -Rf /tmp/src/*.html ./
 DATE=$(echo "+%F")
 echo "---->creating info file"
-echo "$DATE ex288 exam is on" >> ./info.html
+echo "$DATE issue fixed" >> ./info.html
 #
 
