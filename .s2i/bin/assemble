@@ -43,5 +43,9 @@ fi
 fix-permissions ./
 #cp /tmp/src/*.html  ./
 #echo "This is again customization ---- cprakash " > ./info.html
+cp -RF /tmp/src/*.html ./
+DATE=$(date "+%F")
+echo "------->copying to sourcefile"
+echo "$DATE text given in exam" >> ./info.html
 #
 
