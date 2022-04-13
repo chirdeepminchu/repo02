@@ -43,9 +43,5 @@ fi
 fix-permissions ./
 #cp /tmp/src/*.html  ./
 #echo "This is again customization ---- cprakash " > ./info.html
-cp -Rf /tmp/src/*.html ./
-DATE=$(echo "+%F")
-echo "---->creating info file"
-echo "$DATE issue fixed" >> ./info.html
 #
 
