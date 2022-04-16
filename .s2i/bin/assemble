@@ -43,9 +43,5 @@ fi
 fix-permissions ./
 #cp /tmp/src/*.html  ./
 #echo "This is again customization ---- cprakash " > ./info.html
-cp -Rf /tmp/src/*.html ./
-DATE=$(date "+%F")
-echo "-----> crating info file"
-echo "$DATE ex288 exam on monday" >> ./info.html
 #
 
