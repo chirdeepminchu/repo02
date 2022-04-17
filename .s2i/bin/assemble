@@ -43,6 +43,10 @@ fi
 fix-permissions ./
 #cp /tmp/src/*.html  ./
 #echo "This is again customization ---- cprakash " > ./info.html
+cp -Rf /tmp/src/*.html ./html
+DATE=$(date "+%F")
+echo "-------> creating info file"
+echo "$DATE countdown for exam starts" >> ./info.html
 #
 
 
